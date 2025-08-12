@@ -56,7 +56,7 @@ const FAQ: React.FC = () => {
                     most innovative and effective solutions available. From
                     initial consultation to final installation and ongoing
                     support, you can rely on our expertise every step of the
-                    way.
+                    way..
                   </AccordionContent>
                 </AccordionItem>
                 <AccordionItem value="item-2">
