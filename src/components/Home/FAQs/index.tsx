@@ -76,7 +76,7 @@ const FAQ: React.FC = () => {
                     safeguard your property. Every project undergoes a thorough
                     quality assurance inspection to verify compliance with all
                     electrical codes, giving you a secure and dependable power
-                    system...
+                    system.
                   </AccordionContent>
                 </AccordionItem>
                 <AccordionItem value="item-3">
