@@ -92,7 +92,7 @@ const FAQ: React.FC = () => {
                     have the resources and technical know-how to design,
                     implement, and manage a custom power system that is
                     perfectly suited to your specific needs, regardless of the
-                    project's complexity or scope. We are committed to
+                    projects complexity or scope. We are committed to
                     delivering the same high standard of quality and service to
                     all our clients.
                   </AccordionContent>
