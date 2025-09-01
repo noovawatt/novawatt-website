@@ -22,7 +22,7 @@ const Projects: React.FC = () => {
             </p>
           </div>
           <h2 className="text-40 lg:text-52 font-medium text-black dark:text-white text-center tracking-tight leading-11 mb-2">
-            Discover Our electrical works
+            Discover Our electrical works!
           </h2>
           <p className="text-xm font-normal text-black/50 dark:text-white/50 text-center">
             Expert electrical work for your home or business.
