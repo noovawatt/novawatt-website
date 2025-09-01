@@ -1,8 +1,9 @@
 import { Icon } from "@iconify/react";
-import PropertyCard from "./Card/Card";
-import { propertyHomes } from "@/app/api/propertyhomes";
 
-const Properties: React.FC = () => {
+import ProjectCard from "./Card/Card";
+import { projectHomes } from "@/app/api/projecthomes";
+
+const Projects: React.FC = () => {
   return (
     <section>
       <div className="container max-w-8xl mx-auto px-5 2xl:px-0">
@@ -17,7 +18,7 @@ const Properties: React.FC = () => {
               />
             </span>
             <p className="text-base font-semibold text-dark/75 dark:text-white/75">
-              Properties
+              Projects
             </p>
           </div>
           <h2 className="text-40 lg:text-52 font-medium text-black dark:text-white text-center tracking-tight leading-11 mb-2">
@@ -28,9 +29,9 @@ const Properties: React.FC = () => {
           </p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-10">
-          {propertyHomes.slice(0, 6).map((item, index) => (
+          {projectHomes.slice(0, 6).map((item, index) => (
             <div key={index} className="">
-              <PropertyCard item={item} />
+              <ProjectCard item={item} />
             </div>
           ))}
         </div>
@@ -39,4 +40,4 @@ const Properties: React.FC = () => {
   );
 };
 
-export default Properties;
+export default Projects;

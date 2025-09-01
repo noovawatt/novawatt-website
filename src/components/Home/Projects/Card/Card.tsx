@@ -1,9 +1,9 @@
-import { PropertyHomes } from "@/types/properyHomes";
+import { ProjectHomes } from "@/types/projectHomes";
 import { Icon } from "@iconify/react";
 import Image from "next/image";
 import Link from "next/link";
 
-const PropertyCard: React.FC<{ item: PropertyHomes }> = ({ item }) => {
+const ProjectCard: React.FC<{ item: ProjectHomes }> = ({ item }) => {
   const { name, location, rate, slug, images } = item;
 
   const mainImage = images[0]?.src;
@@ -12,7 +12,7 @@ const PropertyCard: React.FC<{ item: PropertyHomes }> = ({ item }) => {
     <div>
       <div className="relative rounded-2xl border border-dark/10 dark:border-white/10 group hover:shadow-3xl duration-300 dark:hover:shadow-white/20">
         <div className="overflow-hidden rounded-t-2xl">
-          <Link href={`/properties/${slug}`}>
+          <Link href={`/projects/${slug}`}>
             {mainImage && (
               <Image
                 src={mainImage}
@@ -36,7 +36,7 @@ const PropertyCard: React.FC<{ item: PropertyHomes }> = ({ item }) => {
         <div className="p-6">
           <div className="flex flex-col mobile:flex-row gap-5 mobile:gap-0 justify-between mb-6">
             <div>
-              <Link href={`/properties/${slug}`}>
+              <Link href={`/projects/${slug}`}>
                 <h3 className="text-xl font-medium text-black dark:text-white duration-300 group-hover:text-primary">
                   {name}
                 </h3>
@@ -81,4 +81,4 @@ const PropertyCard: React.FC<{ item: PropertyHomes }> = ({ item }) => {
   );
 };
 
-export default PropertyCard;
+export default ProjectCard;

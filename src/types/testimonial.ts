@@ -1,6 +1,7 @@
 export type Testimonial = {
-    review: string
-    name: string
-    position: string
-    image: string
-}
+  reviewClient: string;
+  review: string;
+  name: string;
+  position: string;
+  image: string;
+};

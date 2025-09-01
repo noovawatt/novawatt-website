@@ -1,4 +1,4 @@
-import ProjectCard from "../../Home/Projects/Card/Card";
+import ProjectCard from "@/components/Home/Projects/Card/Card";
 import { projectHomes } from "@/app/api/projecthomes";
 
 const ProjectsListing: React.FC = () => {
