@@ -7,12 +7,15 @@ export const testimonials: Testimonial[] = [
     review:
       "Sun Builder's all electric completely manages our building's electrical needs by Noovawatt. They're our full partner, handling everything from design to installation, freeing our team and ensuring peace of mind. Highly recommended for seamless, stress-free electrical work.",
     position: "Sun Builder’s, Ahmedabad",
+    reviewClient: "Priya Patel, Owner, ArtNirman.",
   },
+  
   {
     image: "/images/testimonial/johns.jpg",
     name: "Sam & Mickay John",
     review:
       "I quickly found my dream home! The listings were thorough, the photos were spot-on, and the entire process was smooth. The customer service was outstanding, addressing all my questions with ease. I’ll definitely use this platform again!",
     position: "Buyer",
+    reviewClient: "John Doe, Happy Homeowner",
   },
 ];
