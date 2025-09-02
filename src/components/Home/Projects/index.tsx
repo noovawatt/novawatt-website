@@ -25,7 +25,7 @@ const Projects: React.FC = () => {
             Discover Our electrical works!
           </h2>
           <p className="text-xm font-normal text-black/50 dark:text-white/50 text-center">
-            Expert electrical work for your home or business.
+            Expert electrical work for your home or business!
           </p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-10">
