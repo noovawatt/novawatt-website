@@ -120,21 +120,14 @@ export const projectHomes: ProjectHomes[] = [
       },
     ],
     description: [
-      "Nestled in the heart of miami, the modern luxe villa at 20 s aurora ave offers a perfect blend of contemporary elegance and smart-home innovation. priced at $570000, this 560 ft² residence features 4 spacious bedrooms, 3 luxurious bathrooms, and expansive living areas designed for comfort and style. built in 2025, the home boasts energy-efficient systems, abundant natural light, and state-of-the-art security features. outdoor spaces include two stylish bar areas, perfect for entertaining 8+ guests. enjoy the ultimate in modern living with premium amenities and a prime location.",
-      "Step inside to discover an open-concept layout that seamlessly connects the kitchen, dining, and living spaces. the gourmet kitchen is equipped with top-of-the-line appliances, sleek cabinetry, and a large island perfect for casual dining or meal prep. the sunlit living room offers floor-to-ceiling windows, creating a bright and airy atmosphere while providing stunning views of the outdoor space.",
-      "The primary suite serves as a private retreat with a spa-like ensuite bathroom and a spacious walk-in closet. each additional bedroom is thoughtfully designed with comfort and style in mind, offering ample space and modern finishes. the home’s three bathrooms feature high-end fixtures, custom vanities, and elegant tiling.",
-      "Outdoor living is equally impressive, with a beautifully landscaped backyard, multiple lounge areas, and two fully equipped bar spaces.",
+      "Noovawatt was the trusted electrical partner for ATPL Amba Township. We handled all electrical components, from complete wiring systems to the meticulous installation of all lighting fixtures, ensuring every aspect of the project was executed perfectly.",
     ],
     details: [
-      { title: "Project s", text: "Custom details for this project." },
+      { title: "ATPL", text: "Custom details for this project." },
       { title: "Smart home access", text: "Custom smart home access info." },
       { title: "Energy efficient", text: "Custom energy efficiency info." },
     ],
-    features: [
-      "Automated Security",
-      "Luxury Amenities",
-      "Eco-Friendly Construction",
-    ],
+    features: ["Panel Fitting", "Cable Tray", "Antique light fitting"],
     mapUrl:
       "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d938779.7831767448!2d71.05098621661072!3d23.20271516446136!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e82dd003ff749%3A0x359e803f537cea25!2sGANESH%20GLORY%2C%20Gota%2C%20Ahmedabad%2C%20Gujarat%20382481!5e0!3m2!1sen!2sin!4v1715676641521!5m2!1sen!2sin",
     review:
@@ -187,59 +180,52 @@ export const projectHomes: ProjectHomes[] = [
       "All the electrical, lighting, and communication line works for our Vishnudhara building were perfectly done by NoovaWatt.",
     reviewClient: "Priya Patel, Owner, ArtNirman.",
   },
-  // {
-  //   name: "Grand vista villas",
-  //   slug: "grand-cista-villas",
-  //   location: "25 skyline boulevard, san diego",
-  //   rate: "5+ Projects",
-  //   // beds: 2,
-  //   // baths: 1,
-  //   // area: 90,
-  //   images: [
-  //     {
-  //       src: "/images/properties/property5/property5.jpg",
-  //     },
-  //     {
-  //       src: "/images/properties/property5/image-2.jpg",
-  //     },
-  //     {
-  //       src: "/images/properties/property5/image-3.jpg",
-  //     },
-  //     {
-  //       src: "/images/properties/property5/image-4.jpg",
-  //     },
-  //   ],
-  //   description: [
-  //     "Nestled in the heart of miami, the modern luxe villa at 20 s aurora ave offers a perfect blend of contemporary elegance and smart-home innovation. priced at $570000, this 560 ft² residence features 4 spacious bedrooms, 3 luxurious bathrooms, and expansive living areas designed for comfort and style. built in 2025, the home boasts energy-efficient systems, abundant natural light, and state-of-the-art security features. outdoor spaces include two stylish bar areas, perfect for entertaining 8+ guests. enjoy the ultimate in modern living with premium amenities and a prime location.",
-  //     "Step inside to discover an open-concept layout that seamlessly connects the kitchen, dining, and living spaces. the gourmet kitchen is equipped with top-of-the-line appliances, sleek cabinetry, and a large island perfect for casual dining or meal prep. the sunlit living room offers floor-to-ceiling windows, creating a bright and airy atmosphere while providing stunning views of the outdoor space.",
-  //     "The primary suite serves as a private retreat with a spa-like ensuite bathroom and a spacious walk-in closet. each additional bedroom is thoughtfully designed with comfort and style in mind, offering ample space and modern finishes. the home’s three bathrooms feature high-end fixtures, custom vanities, and elegant tiling.",
-  //     "Outdoor living is equally impressive, with a beautifully landscaped backyard, multiple lounge areas, and two fully equipped bar spaces.",
-  //   ],
-  //   details: [
-  //     {
-  //       title: "Sun SouthRayz",
-  //       text: "One of the few homes in the area with a private pool.",
-  //     },
-  //     {
-  //       title: "Sun SouthStreet",
-  //       text: "Easily check yourself in with a modern keypad system.",
-  //     },
-  //     {
-  //       title: "Sun AvenueOne",
-  //       text: "Built in 2025 with sustainable and smart-home features.",
-  //     },
-  //   ],
-  //   features: [
-  //     "Scenic Views",
-  //     "Tranquil Environment",
-  //     "Voice-Controlled Devices",
-  //     "Low Energy Consumption",
-  //     "High Insulation",
-  //     "Private Balcony",
-  //   ],
-  //   mapUrl:
-  //     "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d938779.7831767448!2d71.05098621661072!3d23.20271516446136!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e82dd003ff749%3A0x359e803f537cea25!2sGANESH%20GLORY%2C%20Gota%2C%20Ahmedabad%2C%20Gujarat%20382481!5e0!3m2!1sen!2sin!4v1715676641521!5m2!1sen!2sin",
-  // },
+  {
+    name: "Sheetal Infrastructure",
+    slug: "sheetal-infrastructure",
+    location: "Ahmedabad",
+    rate: "2 Projects",
+    // beds: 2,
+    // baths: 1,
+    // area: 90,
+    images: [
+      {
+        src: "/images/properties/property5/sheetal.jpg",
+      },
+      {
+        src: "/images/properties/property5/sheetal-2.jpg",
+      },
+      {
+        src: "/images/properties/property5/sheetal-3.jpg",
+      },
+      {
+        src: "/images/properties/property5/sheetal-4.jpg",
+      },
+    ],
+    description: [
+      "We are proud to have been the electrical contractor for Sheetal Infra's Dharodhar project. Our team illuminated the entire building with our top-tier electrical services, from foundational wiring to the final light fixtures. We also expertly installed all communication lines, ensuring seamless connectivity throughout the property. Our comprehensive approach guaranteed that every electrical aspect of the project was executed to perfection, enhancing both functionality and aesthetics.",
+    ],
+    details: [
+      {
+        title: "Sun SouthRayz",
+        text: "One of the few homes in the area with a private pool.",
+      },
+      {
+        title: "Sun SouthStreet",
+        text: "Easily check yourself in with a modern keypad system.",
+      },
+      {
+        title: "Sun AvenueOne",
+        text: "Built in 2025 with sustainable and smart-home features.",
+      },
+    ],
+    features: ["Panel fitting", "Cable tray", "Antique light fitting"],
+    mapUrl:
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3669.0569755150927!2d72.54481679999999!3d23.131592599999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e83498fe64639%3A0xa8376eab1ffb5259!2sDHAROHAR%20by%20SHEETAL%20Infrastructure%20Pvt.%20Ltd.!5e0!3m2!1sen!2sin!4v1756484982733!5m2!1sen!2sin",
+    review:
+      "Girish Bhai and the entire Noovawatt team has made a monumental difference, handling all the electrical work together seamlessly. Their expertise and dedication were crucial in completing the project. It's been a true partnership, and I couldn't be more pleased with the results.",
+    reviewClient: "Paras Pandit",
+  },
   // {
   //   name: "Imperial pearl villas",
   //   slug: "imperial-pearn-villas",

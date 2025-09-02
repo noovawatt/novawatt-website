@@ -1,12 +1,12 @@
 import Link from "next/link";
-import { Icon } from "@iconify/react";
+// import { Icon } from "@iconify/react";
 import { FooterLinks } from "@/app/api/footerlinks";
 
 const Footer = () => {
   return (
     <footer className="relative z-10 bg-dark">
       <div className="container mx-auto max-w-8xl pt-14 px-4 sm:px-6 lg:px-0">
-        <div className="flex lg:items-center justify-between items-end lg:gap-11 pb-14 border-b border-white/10 lg:flex-nowrap flex-wrap gap-6">
+        {/* <div className="flex lg:items-center justify-between items-end lg:gap-11 pb-14 border-b border-white/10 lg:flex-nowrap flex-wrap gap-6">
           <p className="text-white text-sm lg:max-w-1/5">
             Stay updated with the latest news, promotions, and exclusive offers.
           </p>
@@ -52,7 +52,7 @@ const Footer = () => {
               />
             </Link>
           </div>
-        </div>
+        </div> */}
         <div className="py-16 border-b border-white/10">
           <div className="grid grid-cols-12 sm:gap-10 gap-y-6">
             <div className="md:col-span-7 col-span-12">

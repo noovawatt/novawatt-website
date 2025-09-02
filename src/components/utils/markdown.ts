@@ -14,12 +14,9 @@ export function getPostBySlug(slug: string, fields: string[] = []) {
   const fileContents = fs.readFileSync(fullPath, "utf8");
   const { data, content } = matter(fileContents);
 
-  type Items = {
-    // [key: string]: string;
-    [key: string]: string | object;
-  };
+  // Removed unused type Items
 
-  const items: any = {};
+  const items: { [key: string]: string | object | null } = {};
 
   function processImages(content: string) {
     // You can modify this function to handle image processing
@@ -36,12 +33,10 @@ export function getPostBySlug(slug: string, fields: string[] = []) {
       // You can modify the content here to include images
       items[field] = processImages(content);
     }
-
     if (field === "metadata") {
       // Include metadata, including the image information
       items[field] = { ...data, coverImage: data.coverImage || null };
     }
-
     if (typeof data[field] !== "undefined") {
       items[field] = data[field];
     }
@@ -55,7 +50,13 @@ export function getAllPosts(fields: string[] = []) {
   const posts = slugs
     .map((slug) => getPostBySlug(slug, fields))
     // sort posts by date in descending order
-    .sort((post1, post2) => (post1.date > post2.date ? -1 : 1));
+    .sort((post1, post2) => {
+      const date1 = post1.date ?? "";
+      const date2 = post2.date ?? "";
+      if (date1 > date2) return -1;
+      if (date1 < date2) return 1;
+      return 0;
+    });
 
   return posts;
 }

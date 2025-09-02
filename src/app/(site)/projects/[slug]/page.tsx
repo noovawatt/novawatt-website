@@ -3,7 +3,7 @@ import React from "react";
 import { projectHomes } from "@/app/api/projecthomes";
 import { useParams } from "next/navigation";
 import { Icon } from "@iconify/react";
-import { testimonials } from "@/app/api/testimonial";
+// import { testimonials } from "@/app/api/testimonial";
 import Link from "next/link";
 import Image from "next/image";
 

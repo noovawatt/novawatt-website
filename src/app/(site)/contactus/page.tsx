@@ -50,7 +50,7 @@ export default function ContactUs() {
                 Contact information
               </h5>
               <p className="text-sm xs:text-base mobile:text-xm font-normal text-white/80">
-                We'd love to hear from you!
+                We would love to hear from you!
               </p>
             </div>
             <div className="absolute bottom-6 left-6 lg:bottom-12 lg:left-12 flex flex-col gap-4 text-white">
