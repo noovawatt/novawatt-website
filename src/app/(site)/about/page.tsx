@@ -1,4 +1,4 @@
-import Image from "next/image";
+
 import Link from "next/link";
 import { Icon } from "@iconify/react";
 
@@ -23,7 +23,7 @@ export default function AboutPage() {
               </p>
               <p>
                 At NoovaWatt, we are more than just an electrical service
-                provider; we are your dedicated partners in powering a smarter,
+                provider we are your dedicated partners in powering a smarter,
                 safer, and more sustainable future. With a foundation built on
                 expertise, innovation, and unwavering integrity, we have earned
                 a reputation for delivering exceptional electrical solutions for
@@ -33,7 +33,7 @@ export default function AboutPage() {
                 Noovawatt was founded by Girish, a visionary with over 15 years
                 of deep experience in the electrical industry. Before starting
                 Noovawatt in 2014, Girish built a strong reputation by working
-                closely with some of Gujarat's most respected builders,
+                closely with some of Gujarat most respected builders,
                 companies, and corporate clients.
               </p>
             </div>
