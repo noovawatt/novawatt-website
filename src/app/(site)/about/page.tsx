@@ -202,7 +202,7 @@ export default function AboutPage() {
             Ready to Power Your Future?
           </h2>
           <p className="text-lg text-gray-600 dark:text-gray-300 mb-8 max-w-2xl mx-auto">
-            Let's discuss how NoovaWatt can bring your electrical vision to life
+            Lets discuss how NoovaWatt can bring your electrical vision to life
             with our expertise and commitment to excellence.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
