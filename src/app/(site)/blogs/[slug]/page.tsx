@@ -4,12 +4,13 @@ import { format } from "date-fns";
 import Image from "next/image";
 import Link from "next/link";
 import { Icon } from "@iconify/react";
+import { Metadata } from "next";
 
 type Props = {
   params: { slug: string };
 };
 
-export async function generateMetadata({ params }: any) {
+export async function generateMetadata({ params }: any): Promise<Metadata> {
   const data = await params;
   const posts = getAllPosts(["title", "date", "excerpt", "coverImage", "slug"]);
   const post = getPostBySlug(data.slug, [
@@ -25,7 +26,7 @@ export async function generateMetadata({ params }: any) {
   if (post) {
     const metadata = {
       title: `${post.title || "Single Post Page"} | ${siteName}`,
-      author: authorName,
+      authors: [{ name: authorName }],
       robots: {
         index: true,
         follow: true,
@@ -34,7 +35,7 @@ export async function generateMetadata({ params }: any) {
           index: true,
           follow: false,
           "max-video-preview": -1,
-          "max-image-preview": "large",
+          "max-image-preview": "large" as const,
           "max-snippet": -1,
         },
       },
@@ -45,7 +46,7 @@ export async function generateMetadata({ params }: any) {
     return {
       title: "Not Found",
       description: "No blog article has been found",
-      author: authorName,
+      authors: [{ name: authorName }],
       robots: {
         index: false,
         follow: false,
@@ -54,7 +55,7 @@ export async function generateMetadata({ params }: any) {
           index: false,
           follow: false,
           "max-video-preview": -1,
-          "max-image-preview": "large",
+          "max-image-preview": "large" as const,
           "max-snippet": -1,
         },
       },
