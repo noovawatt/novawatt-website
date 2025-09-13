@@ -19,7 +19,7 @@ export default function AboutPage() {
             </h1>
             <div className="space-y-6 text-lg lg:text-xl text-gray-600 dark:text-gray-300 leading-relaxed">
               <p className="font-semibold text-primary dark:text-primary">
-                Ved Enterprises is Now NoovaWatt
+                Ved Enterprises is Now NoovaWatt!
               </p>
               <p>
                 At NoovaWatt, we are more than just an electrical service
