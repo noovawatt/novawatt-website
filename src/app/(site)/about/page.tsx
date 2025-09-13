@@ -114,7 +114,7 @@ export default function AboutPage() {
                 convenience. We are committed to using our technical proficiency
                 and forward-thinking approach to solve complex electrical
                 challenges, ensuring every project is completed to the highest
-                standards of quality and performance.
+                standards of quality and performance!
               </p>
             </div>
           </div>
