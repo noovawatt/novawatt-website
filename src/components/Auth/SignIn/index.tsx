@@ -46,7 +46,7 @@ const Signin = ({ signInOpen }: SigninProps) => {
   return (
     <>
       <div className="mb-10 text-center flex justify-center">
-        <Logo />
+        <Logo type="main" />
       </div>
 
       <SocialSignIn />
