@@ -74,7 +74,7 @@ const Categories = () => {
                   <h3 className="text-white text-2xl">Residential Homes</h3>
                   <p className="text-white/80 text-base leading-6">
                     Experience elegance and comfort with our exclusive luxury
-                    villas, designed for sophisticated living.
+                    villas, designed for sophisticated living!
                   </p>
                 </div>
               </Link>
