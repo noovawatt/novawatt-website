@@ -1,26 +1,38 @@
-import Image from 'next/image'
+import Image from "next/image";
 
-const Logo: React.FC = () => {
+type LogoProps = {
+  type: "main" | "navbar";
+};
+
+const Logo: React.FC<LogoProps> = ({ type }) => {
+  const mainLight = "/images/header/logo.svg";
+  const mainDark = "/images/header/logo.svg";
+  const navLight = "/images/header/nw-logo1.svg";
+  const navDark = "/images/header/nw-logo1.svg";
+
+  const lightLogo = type === "main" ? mainLight : navLight;
+  const darkLogo = type === "main" ? mainDark : navDark;
+
   return (
     <>
       <Image
-        src={'/images/header/dark-logo.svg'}
-        alt='logo'
-        width={150}
-        height={68}
+        src={lightLogo}
+        alt="logo light mode"
+        width={type === "main" ? 200 : 150}
+        height={type === "main" ? 80 : 68}
         unoptimized={true}
-        className='dark:hidden'
+        className="dark:hidden"
       />
       <Image
-        src={'/images/header/logo.svg'}
-        alt='logo'
-        width={150}
-        height={68}
+        src={darkLogo}
+        alt="logo dark mode"
+        width={type === "main" ? 200 : 150}
+        height={type === "main" ? 80 : 68}
         unoptimized={true}
-        className='dark:block hidden'
+        className="hidden dark:block"
       />
     </>
-  )
-}
+  );
+};
 
-export default Logo
+export default Logo;

@@ -1,38 +1,40 @@
 const services = [
   {
-    title: "Energy Consulting",
+    title: "Residential Services",
     description:
-      "Expert advice to optimize energy usage and reduce costs for homes and businesses.",
-    icon: "/SVGs/energyefficient.svg",
+      "From minor repairs to major installations, we handle every aspect of your home's electrical needs. Our residential services include:",
+    icon: "/images/SVGs/innovation.svg",
+    points: [
+      "New Wiring & Rewiring",
+      "Lighting Solutions",
+      "Panel Upgrades",
+      "Smart Home Integration",
+      "EV Charger Installation",
+    ],
   },
   {
-    title: "Smart Home Integration",
+    title: "Commercial & Industrial Services",
     description:
-      "Seamless integration of smart devices for enhanced comfort, security, and efficiency.",
-    icon: "/SVGs/smart-home-access.svg",
+      "We offer robust electrical solutions that support the operational needs of businesses of all sizes. Our commercial services include:",
+    icon: "/images/SVGs/smart-house.svg",
+    points: [
+      "Electrical System Design & Installation",
+      "Preventive Maintenance",
+      "Data & Communication Cabling",
+      "Energy Management Systems",
+      "Emergency & Backup Power",
+    ],
   },
   {
-    title: "Property Management",
+    title: "Specialized & Green Energy Solutions",
     description:
-      "Comprehensive management solutions for residential and commercial properties.",
-    icon: "/SVGs/property-details.svg",
-  },
-  {
-    title: "Sustainable Design",
-    description:
-      "Eco-friendly architectural and interior design for modern living spaces.",
-    icon: "/SVGs/energyefficient-white.svg",
-  },
-  {
-    title: "Project Development",
-    description: "End-to-end project development from concept to completion.",
-    icon: "/SVGs/property-details-white.svg",
-  },
-  {
-    title: "Customer Support",
-    description:
-      "Dedicated support team to assist with all your property and energy needs.",
-    icon: "/testimonial/Vector.png",
+      "As advocates for a sustainable future, we specialize in advanced and eco-friendly technologies:",
+    icon: "/images/SVGs/solar1.svg",
+    points: [
+      "Solar Panel Installation",
+      "Battery Storage Solutions",
+      "Energy Audits",
+    ],
   },
 ];
 

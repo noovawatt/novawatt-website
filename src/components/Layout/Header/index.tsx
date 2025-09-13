@@ -6,7 +6,7 @@ import { useEffect, useRef, useState, useCallback } from "react";
 import NavLink from "./Navigation/NavLink";
 import { useTheme } from "next-themes";
 import { usePathname } from "next/navigation";
-import Image from "next/image";
+import Logo from "./BrandLogo/Logo"; // Updated import
 
 const Header: React.FC = () => {
   const [sticky, setSticky] = useState(false);
@@ -57,38 +57,7 @@ const Header: React.FC = () => {
         <div className="flex justify-between items-center gap-2 w-full">
           <div>
             <Link href="/">
-              <Image
-                src={"/images/header/dark-logo.svg"}
-                alt="logo"
-                width={150}
-                height={68}
-                unoptimized={true}
-                className={`mt-0 ${
-                  isHomepage
-                    ? sticky
-                      ? "block dark:hidden"
-                      : "hidden"
-                    : sticky
-                    ? "block dark:hidden"
-                    : "block dark:hidden"
-                }`}
-              />
-              <Image
-                src={"/images/header/logo.svg"}
-                alt="logo"
-                width={150}
-                height={68}
-                unoptimized={true}
-                className={`-mt-15 ${
-                  isHomepage
-                    ? sticky
-                      ? "hidden dark:block"
-                      : "block"
-                    : sticky
-                    ? "dark:block hidden"
-                    : "dark:block hidden"
-                }`}
-              />
+              <Logo type="navbar" />
             </Link>
           </div>
           <div className="flex items-center gap-2 sm:gap-6">
