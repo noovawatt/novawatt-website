@@ -3,21 +3,21 @@ import Link from "next/link";
 const Hero: React.FC = () => {
   return (
     <section className="!py-0">
-      <div className="bg-gradient-to-b from-skyblue via-lightskyblue dark:via-[#4298b0] to-white/10 dark:to-black/10 overflow-hidden relative">
+      <div className="bg-gradient-to-b from-skyblue via-lightskyblue to-white/10 dark:from-black/90 dark:via-slate-900/70 dark:to-black/40 overflow-hidden relative">
         <div className="container max-w-8xl mx-auto px-5 2xl:px-0 pt-32 md:pt-60 md:pb-68">
-          <div className="relative text-white dark:text-dark text-center md:text-start z-10">
-            <p className="text-inherit text-xm font-medium">Ahemdabad, India</p>
-            <h1 className="text-inherit text-6xl sm:text-9xl font-semibold -tracking-wider md:max-w-45p mt-4 mb-6">
+          <div className="relative text-white dark:text-white text-center md:text-start z-10">
+            <p className="text-inherit text-xm font-medium dark:text-white/80">Ahemdabad, India</p>
+            <h1 className="text-inherit text-6xl sm:text-9xl font-semibold -tracking-wider md:max-w-45p mt-4 mb-6 dark:text-white">
               Powering India
             </h1>
             <div className="flex flex-col xs:flex-row justify-center md:justify-start gap-4">
               <Link
                 href="/contactus"
-                className="px-8 py-4 border border-white dark:border-dark bg-white dark:bg-dark text-dark dark:text-white duration-300 dark:hover:text-dark hover:bg-transparent hover:text-white text-base font-semibold rounded-full hover:cursor-pointer"
+                className="px-8 py-4 border border-white dark:border-white/20 bg-white dark:bg-white/10 text-dark dark:text-white duration-300 hover:bg-transparent hover:text-white dark:hover:bg-white/20 dark:hover:text-white text-base font-semibold rounded-full hover:cursor-pointer"
               >
                 Get in touch
               </Link>
-              <button className="px-8 py-4 border border-white dark:border-dark bg-transparent text-white dark:text-dark hover:bg-white dark:hover:bg-dark dark:hover:text-white hover:text-dark duration-300 text-base font-semibold rounded-full hover:cursor-pointer">
+              <button className="px-8 py-4 border border-white dark:border-white/30 bg-transparent text-white dark:text-white hover:bg-white hover:text-dark dark:hover:bg-white/10 dark:hover:text-white duration-300 text-base font-semibold rounded-full hover:cursor-pointer">
                 View Details
               </button>
             </div>
