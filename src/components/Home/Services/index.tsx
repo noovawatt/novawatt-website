@@ -43,7 +43,7 @@ const Categories = () => {
               performance.
             </p>
             <Link
-              href="/properties"
+              href="/projects"
               className="py-4 px-8 bg-primary text-base leading-4 block w-fit text-white rounded-full font-semibold mt-8 hover:bg-dark duration-300"
             >
               View all works

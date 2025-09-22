@@ -49,7 +49,7 @@ export const projectHomes: ProjectHomes[] = [
   },
   {
     name: "Ratna Builders",
-    slug: "mountain-retreat-villa",
+    slug: "ratna-builders",
     location: "Ahemdabad",
     rate: "3 Projects",
     // beds: 5,
@@ -57,16 +57,16 @@ export const projectHomes: ProjectHomes[] = [
     // area: 150,
     images: [
       {
+        src: "/images/properties/property2/ratnabuilder-3.jpg",
+      },
+      {
+        src: "/images/properties/property2/ratnabuilder-5.jpg",
+      },
+      {
         src: "/images/properties/property2/ratnabuilder-1.jpg",
       },
       {
         src: "/images/properties/property2/ratnabuilder-2.jpg",
-      },
-      {
-        src: "/images/properties/property2/ratnabuilder-3.jpg",
-      },
-      {
-        src: "/images/properties/property2/ratnabuilder-4.jpg",
       },
     ],
     description: [
@@ -74,15 +74,15 @@ export const projectHomes: ProjectHomes[] = [
     ],
     details: [
       {
-        title: "Project details",
+        title: "Avion",
         text: "One of the few homes in the area with a private pool.",
       },
       {
-        title: "Smart home access",
+        title: "RE 11",
         text: "Easily check yourself in with a modern keypad system.",
       },
       {
-        title: "Energy efficient",
+        title: "Artemus 2",
         text: "Built in 2025 with sustainable and smart-home features.",
       },
     ],
@@ -92,14 +92,14 @@ export const projectHomes: ProjectHomes[] = [
       "Energy Efficiency",
     ],
     mapUrl:
-      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d938779.7831767448!2d71.05098621661072!3d23.20271516446136!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e82dd003ff749%3A0x359e803f537cea25!2sGANESH%20GLORY%2C%20Gota%2C%20Ahmedabad%2C%20Gujarat%20382481!5e0!3m2!1sen!2sin!4v1715676641521!5m2!1sen!2sin",
+      "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d144486.30500864313!2d72.4602117!3d23.1156316!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e84e4d3d8c469%3A0x4e9377a7c4e3dc5f!2sRATNA%20GROUP!5e1!3m2!1sen!2sin",
     review:
       "Noovawatt provided us with perfect electrical services and the work was done very well.",
     reviewClient: " Mr. Jitendra Shah, Owner, Ratna Group.",
   },
   {
     name: "Amba Township",
-    slug: "modern-luxe-villa",
+    slug: "amba-township-ahmedbad",
     location: "Ahemdabad",
     rate: "5+ Projects",
     // beds: 3,
@@ -107,13 +107,13 @@ export const projectHomes: ProjectHomes[] = [
     // area: 180,
     images: [
       {
-        src: "/images/properties/property3/property3.jpg",
+        src: "/images/properties/property3/amba-1.webp",
       },
       {
-        src: "/images/properties/property3/image-2.jpg",
+        src: "/images/properties/property3/amba-2.webp",
       },
       {
-        src: "/images/properties/property3/image-3.jpg",
+        src: "/images/properties/property3/amba-3.webp",
       },
       {
         src: "/images/properties/property3/image-4.jpg",
@@ -124,19 +124,22 @@ export const projectHomes: ProjectHomes[] = [
     ],
     details: [
       { title: "ATPL", text: "Custom details for this project." },
-      { title: "Smart home access", text: "Custom smart home access info." },
-      { title: "Energy efficient", text: "Custom energy efficiency info." },
+      // { title: "Cable Tray", text: "Custom smart home access info." },
+      // {
+      //   title: "Antique light fitting",
+      //   text: "Custom energy efficiency info.",
+      // },
     ],
     features: ["Panel Fitting", "Cable Tray", "Antique light fitting"],
     mapUrl:
-      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d938779.7831767448!2d71.05098621661072!3d23.20271516446136!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e82dd003ff749%3A0x359e803f537cea25!2sGANESH%20GLORY%2C%20Gota%2C%20Ahmedabad%2C%20Gujarat%20382481!5e0!3m2!1sen!2sin!4v1715676641521!5m2!1sen!2sin",
+      "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9025.631255380667!2d72.5706266!3d23.1863232!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395c29b16b85cf07%3A0xe13f3b967825ba28!2sAmba%20Township%20Private%20Limited!5e1!3m2!1sen!2sin!4v1758559379196!5m2!1sen!2sin",
     review:
       "All the lighting and wiring works for ATPL were perfectly done by NoovaWatt.",
     reviewClient: "Navdeep Dosani, Owner, ATPL.",
   },
   {
     name: "Art Nirman",
-    slug: "art-nirman",
+    slug: "artnirman",
     location: "Ahemdabad",
     rate: "2 Projects",
     // beds: 6,
@@ -207,7 +210,7 @@ export const projectHomes: ProjectHomes[] = [
     ],
     details: [
       {
-        title: "Sun SouthRayz",
+        title: "Dharohar",
         text: "One of the few homes in the area with a private pool.",
       },
       {

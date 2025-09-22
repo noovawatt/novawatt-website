@@ -30,7 +30,7 @@ export default function AboutPage() {
                 both residential and commercial clients.
               </p>
               <p>
-                Noovawatt was founded by Girish, a visionary with over 15 years
+                Noovawatt was founded by Girish Joshi, a visionary with over 15 years
                 of deep experience in the electrical industry. Before starting
                 Noovawatt in 2014, Girish built a strong reputation by working
                 closely with some of Gujarat most respected builders,
