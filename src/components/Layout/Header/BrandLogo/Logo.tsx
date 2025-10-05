@@ -7,8 +7,8 @@ type LogoProps = {
 const Logo: React.FC<LogoProps> = ({ type }) => {
   const mainLight = "/images/header/logo.svg";
   const mainDark = "/images/header/logo.svg";
-  const navLight = "/images/header/nw-logo1.svg";
-  const navDark = "/images/header/nw-logo1.svg";
+  const navLight = "/images/header/nw-logo111.svg";
+  const navDark = "/images/header/nw-logo111.svg";
 
   const lightLogo = type === "main" ? mainLight : navLight;
   const darkLogo = type === "main" ? mainDark : navDark;

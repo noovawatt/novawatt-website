@@ -51,30 +51,7 @@ const ProjectCard: React.FC<{ item: ProjectHomes }> = ({ item }) => {
               </button>
             </div>
           </div>
-          {/* <div className="flex">
-            <div className="flex flex-col gap-2 border-e border-black/10 dark:border-white/20 pr-2 xs:pr-4 mobile:pr-8">
-              <Icon icon={"solar:bed-linear"} width={20} height={20} />
-              <p className='text-sm mobile:text-base font-normal text-black dark:text-white'>
-                {beds} Bedrooms
-              </p>
-            </div>
-            <div className="flex flex-col gap-2 border-e border-black/10 dark:border-white/20 px-2 xs:px-4 mobile:px-8">
-              <Icon icon={"solar:bath-linear"} width={20} height={20} />
-              <p className="text-sm mobile:text-base font-normal text-black dark:text-white">
-                {baths} Bathrooms
-              </p>
-            </div>
-            <div className="flex flex-col gap-2 pl-2 xs:pl-4 mobile:pl-8">
-              <Icon
-                icon={"lineicons:arrow-all-direction"}
-                width={20}
-                height={20}
-              />
-              <p className="text-sm mobile:text-base font-normal text-black dark:text-white">
-                {area}m<sup>2</sup>
-              </p>
-            </div>
-          </div> */}
+        
         </div>
       </div>
     </div>

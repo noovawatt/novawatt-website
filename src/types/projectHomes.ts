@@ -10,6 +10,7 @@ export type ProjectHomes = {
   mapUrl: string;
   review: string;
   reviewClient: string;
+  reviewImage: string;
 };
 
 interface ProjectImage {

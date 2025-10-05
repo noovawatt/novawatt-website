@@ -4,6 +4,8 @@ import Properties from "@/components/Home/Projects";
 import Services from "@/components/Home/Services";
 import Testimonial from "@/components/Home/Testimonial";
 // import BlogSmall from "@/components/shared/Blog";
+import Clients from "@/components/Home/Clients";
+import Partners from "@/components/Home/Partners";
 import GetInTouch from "@/components/Home/GetInTouch";
 import FAQ from "@/components/Home/FAQs";
 
@@ -16,7 +18,10 @@ export default function Home() {
       {/* <FeaturedProperty /> */}
       <Testimonial />
       {/* <BlogSmall /> */}
+      <Clients />
+
       <GetInTouch />
+      <Partners />
       <FAQ />
     </main>
   );
