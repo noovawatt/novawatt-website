@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState, useEffect, useRef } from "react";
+import React, { useState, useEffect, useRef, useCallback } from "react";
 import Image from "next/image";
 
 interface ClientLogo {
@@ -58,17 +58,17 @@ const Clients: React.FC = () => {
   const slidesToShow = isMobile ? 1 : 4;
   const maxIndex = clientLogos.length;
 
-  const nextSlide = () => {
+  const nextSlide = useCallback(() => {
     setCurrentIndex((prevIndex) =>
       prevIndex + 1 >= maxIndex ? 0 : prevIndex + 1
     );
-  };
+  }, [maxIndex]);
 
-  const prevSlide = () => {
+  const prevSlide = useCallback(() => {
     setCurrentIndex((prevIndex) =>
       prevIndex - 1 < 0 ? maxIndex - 1 : prevIndex - 1
     );
-  };
+  }, [maxIndex]);
 
   const goToSlide = (index: number) => setCurrentIndex(index);
 
@@ -100,7 +100,7 @@ const Clients: React.FC = () => {
     return () => {
       if (intervalRef.current) clearInterval(intervalRef.current);
     };
-  }, [isHovered, isMobile]);
+  }, [isHovered, isMobile, nextSlide]);
 
   return (
     <section className="py-12 sm:py-16 md:py-24 bg-gradient-to-b from-gray-50 to-white dark:from-gray-900 dark:to-black">

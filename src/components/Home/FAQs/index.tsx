@@ -93,7 +93,7 @@ const FAQ: React.FC = () => {
                   large-scale commercial and industrial power projects. We have
                   the resources and technical know-how to design, implement, and
                   manage a custom power system that is perfectly suited to your
-                  specific needs, regardless of the project's complexity or
+                  specific needs, regardless of the project&apos;s complexity or
                   scope. We are committed to delivering the same high standard
                   of quality and service to all our clients.
                 </AccordionContent>
