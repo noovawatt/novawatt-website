@@ -188,7 +188,7 @@ export default function AboutPage() {
                 transparent pricing, and a seamless project experience. Our goal
                 is not just to meet your expectations but to exceed them,
                 leaving you with a powerful, efficient, and reliable electrical
-                system that you can trust for years to come.
+                system that you can trust for years to come!
               </p>
             </div>
           </div>
