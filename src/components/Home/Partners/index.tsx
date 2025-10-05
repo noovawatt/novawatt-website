@@ -17,7 +17,7 @@ const Partners: React.FC = () => {
     { id: 2, logo: "/images/partners/polycab-logo.png", alt: "Polycab Logo" },
     { id: 3, logo: "/images/partners/Syska-logo.png", alt: "Syska Logo" },
     { id: 4, logo: "/images/partners/finolex-vector.png", alt: "Finloex Logo" },
-    { id: 5, logo: "/images/partners/V-guard.png", alt: "V-Guard Logo" },
+    { id: 5, logo: "/images/partners/V-Guard.png", alt: "V-Guard Logo" },
     {
       id: 6,
       logo: "/images/partners/RR cable 2.png",
